@@ -1,9 +1,5 @@
 #coding:utf-8
 
-shisuu_file = open('shisuu.txt','a')
-shisuu_file.flush()
-shisuu_file.close()
-
 while True:
        N = raw_input('Nを入力してください。：')
        if len(N) == 0:
